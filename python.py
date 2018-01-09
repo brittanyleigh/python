@@ -1,0 +1,63 @@
+
+
+skill = {
+	"a" : "AngularJS ", 
+	"b" : "Backbone.js ", 
+	"c" : "Cordova ",
+	"d" : "Django ",
+	"e" : "Express.js ",
+	"f" : "FTP ",
+	"g" : "git ",
+	"h" : "HTML ",
+	"i" : "iOS ",
+	"j" : "JavaScript ",
+	"k" : "Keep-It-Simple-Stupid ",
+	"l" : "LAMP ",
+	"m" : "MEAN ",
+	"n" : "Node.js ",
+	"o" : "Objective-C ",
+	"p" : "Python ",
+	"q" : "Querying ",
+	"r" : "Ruby ",
+	"s" : "SQL ",
+	"t" : "TypeScript ",
+	"u" : "Unix ",
+	"v" : "Visual Basic ",
+	"w" : "Wordpress ",
+	"x" : "XL ",
+	"y" : "\'You\'-nix ",
+	"z" : "\'Z\'-QL ",
+}
+hero = {
+	"a" : "Adventurer", 
+	"b" : "Buff", 
+	"c" : "Champion",
+	"d" : "Defender",
+	"e" : "Enchanter",
+	"f" : "Fighter",
+	"g" : "Gladiator",
+	"h" : "Hero",
+	"i" : "Illusionist",
+	"j" : "Joy",
+	"k" : "Khaleesi",
+	"l" : "Legacy",
+	"m" : "Magician",
+	"n" : "Ninja",
+	"o" : "Official",
+	"p" : "Phenomenon",
+	"q" : "Queen",
+	"r" : "Rebel",
+	"s" : "Sorcerer",
+	"t" : "Tsunami",
+	"u" : "Upholder",
+	"v" : "Victor",
+	"w" : "Wizard",
+	"x" : "X-Ray",
+	"y" : "Yeti",
+	"z" : "Zombie",
+}
+
+entry  = raw_input("Enter your name first name to discover your developer superhero skills ").lower()
+
+result = skill[entry[0]] + hero[entry[-1]]
+print "You're a " + result + "! Use your powers for good!" 
